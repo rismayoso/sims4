@@ -1,0 +1,106 @@
+.leftt{
+    float: right;
+}
+
+
+.background1{
+    position: absolute;
+    width: 100%;
+}
+
+.txt1{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 150px;
+    font-size: 20px;
+    color: white;
+}
+
+.txt2{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 350px;
+    font-size: 20px;
+    color: white;
+}
+
+.btn-learn{
+    position: absolute;
+    margin-top: 450px;
+    margin-left:220px;
+}
+
+.ic-background1{
+    width: 450px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.btn-preorder{
+    position: absolute;
+    margin-top: 450px;
+    margin-left:390px;
+}
+
+.bag-2{
+    position: absolute;
+    background-color: blue;
+    margin-top: 600px;
+    width: 100%;
+    height: 70px;
+}
+h1{
+    position: absolute;
+    margin: 40px 0px 0px 520px;
+}
+
+.btn-news{
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 50px;
+}
+
+.background2{
+    width: 1263px;
+    height: 650px;
+    position: absolute;
+}
+.card-margintop{
+    margin-top: 120px;
+}
+
+.ply{
+    position: absolute;
+    margin-top: 1300px;
+    width: 1263px;
+    height: 1250px;
+}
+.ply1{
+    position: absolute;
+    margin-top: 1380px;
+    width: 50px;
+    margin-left: 48%;
+}
+
+.ply2{
+    position: absolute;
+    margin-top: 1530px;
+    margin-left: 41%;
+    color: white;
+}
+
+.ply3{
+    position: absolute;
+    margin-top: 1600px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-left: 16%;
+}
+
+.btn-ply{
+    position: absolute;
+    margin-top: 1750px;
+    margin-left: -100px;
+}

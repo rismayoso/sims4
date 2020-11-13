@@ -1,0 +1,20 @@
+.logo1 {
+	  width: 175px;
+    left: 75px;
+    top: 100px;
+    background-color:blue;
+    z-index: 3;
+	
+}
+
+.img{
+		position: relative;
+		z-index: 1;
+		top: 0px;
+	}
+	.p{
+		position: absolute;
+		top: 20px;
+		z-index: 2;
+		color: #fff;
+	}
