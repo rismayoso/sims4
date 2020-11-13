@@ -1,20 +1,41 @@
-.logo1 {
-	  width: 175px;
-    left: 75px;
-    top: 100px;
-    background-color:blue;
-    z-index: 3;
-	
+.text1 {
+	   position: absolute;
+    margin-top: 320px;
+    margin-left: 200px;
+    font-size: 24px;
+    color: white;
+    font-family: Garamond;
 }
 
-.img{
-		position: relative;
-		z-index: 1;
-		top: 0px;
-	}
-	.p{
-		position: absolute;
-		top: 20px;
-		z-index: 2;
-		color: #fff;
-	}
+.text2 {
+	   position: absolute;
+    margin-top: 820px;
+    margin-left: 530px;
+    font-size: 50px;
+    color: white;
+    font-family: cooper black;
+}
+
+.text3 {
+	   position: absolute;
+    margin-top: 900px;
+    margin-left: 240px;
+    font-size: 24px;
+    color: white;
+    font-family: Garamond;
+}
+
+.text4 {
+	   position: absolute;
+    margin-top: 300px;
+    margin-left: 1020px;
+    font-size: 24px;
+    color: white;
+    font-family: Garamond;
+}
+
+.logo{
+	resize: 20px;
+    position: absolute;
+}
+  
