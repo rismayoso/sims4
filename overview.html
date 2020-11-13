@@ -1,65 +1,155 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> overview The Sims 4 </title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <title> overview The Sims 4 </title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="bootstrap/js/jquery-3.5.1.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-   <!-- Navigation TopBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <!-- Navigation TopBar -->
+    <nav id="navigasi-atas" class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="" srcset=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">OVERVIEW<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">NEWS</a>
-            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  OVERVIEW
+                </a>
+                <div class="dropdown-menu">
+                    <h6 class="dropdown-header">Overview</h6>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="overview.html">Features Overview</a>
+                    <a class="dropdown-item" href="#">Expand Your Game</a>
+                    <div class="dropdown-divider"></div>
+                    <h6 class="dropdown-header">Trials & Subscriptions</h6>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">EA Play</a>
+                    <a class="dropdown-item" href="#">Create A Sim Demo</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  NEWS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">News</a>
+                  <a class="dropdown-item" href="#">Updates Notes</a>
+                  <a class="dropdown-item" href="#">Newsletter Signup</a>
+                </div>
+              </li>
             <li class="nav-item">
               <a class="nav-link" href="#">MEDIA</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PACKS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">FAQS & TIPS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">COMMUNITY</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SPARK'D</a>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
+                PACKS
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">About Packs</a>
+                <a class="dropdown-item" href="#">Expansion Packs</a>
+                <a class="dropdown-item" href="#">Game Packs</a>
+                <a class="dropdown-item" href="#">Stuff Packs</a>
+                <a class="dropdown-item" href="#">Bundle Packs</a>
+                <a class="dropdown-item" href="#">Build Your Own Bundle</a>
+                <a class="dropdown-item" href="#">Give A Gift</a>
               </div>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  FAQS & TIPS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Base Game FAQ</a>
+                  <a class="dropdown-item" href="#">Pack FAQs</a>
+                  <a class="dropdown-item" href="#">How To Cheat On Pc</a>
+                  <a class="dropdown-item" href="#">Console Tips & Tricks</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  COMMUNITY
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">The Gallery</a>
+                  <a class="dropdown-item" href="#">Forums</a>
+                  <a class="dropdown-item" href="#">Fan Art Kits</a>
+                  <a class="dropdown-item" href="#">The Sims Gear</a>
+                  <a class="dropdown-item" href="#">Facebook</a>
+                  <a class="dropdown-item" href="#">Youtube</a>
+                  <a class="dropdown-item" href="#">Instagram</a>
+                  <a class="dropdown-item" href="#">Twitter</a>
+                  <a class="dropdown-item" href="#">Tumblr</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  SPARK'D
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Spark'D Challenges</a>
+                  <a class="dropdown-item" href="#">Spark'D Show</a>
+                  <a class="dropdown-item" href="#">Challenge Archive</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown leftt">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Download The Sims™ 4
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">PC Download</a>
+                  <a class="dropdown-item" href="#">Xbox One</a>
+                  <a class="dropdown-item" href="#">Playstation 4</a>
+                </div>
+              </li>
           </ul>
         </div>
       </nav>
+<div>
 
-
+<h6 class="text1"> Unleash your imagination and create a unique world of Sims 
+<br> that’s an expression of you! Explore and customize every detail from Sims <br> to homes, and much more.
+<br>
+</h6>
 <img src="images/gm1.png" class="img">
-<img src="images/gm2.png">
+</div>
+<div> 
+<h5 class="text2">CREATE UNIQUE SIMS </h5>
+<h6 class="text3">
+A variety of Sims are yours to personalize, each with distinct appearances, dynamic personalities, and inspiring aspirations. Use powerful customization features to bring your imagination to life. Create yourself, your favorite celebrities, your fantasy, or your friends! Change your Sims’ clothing to reflect your mood, develop stories that deepen your world, and give their lives purpose with traits and aspirations.</h6>
 <img src="images/gm3.png">
+</div>
+<div> 
+<h5 class="text2">BUILD THE PERFECT HOME</h5>
+<h6 class="text3">
+Effortlessly build and design ideal homes for your Sims using Build Mode. Construct the home of your – and their – dreams by planning its layout, choosing furnishings, and altering the landscape and terrain. You can even add a pool, basement, and garden, or rebuild with new ideas and designs!</h6>
 <img src="images/gm4.png">
+</div>
+
+<div>
+<h5 class="text2">EXPLORE VIBRANT WORLDS</h5>
+<h6 class="text3">Travel between locations, discover amazing and distinctive neighborhoods, and encounter captivating venues. Your Sims can visit new communities to expand their social circle, hang out with friends, or throw unforgettable parties.</h6>
 <img src="images/gm5.png">
+</div>
+
+<div>
+<h5 class="text2">ADD NEW EXPERIENCES </h5>
+<h6 class="text3">
+Use the Gallery to find inspiration from a community of players just like you, where you can add content to your game or share your own creations. Download, like, and comment on your favorite Sims, homes, and fully-designed rooms. Join the community, join the fun!</h6>
 <img src="images/gm7.png">
+</div>
+
+<div>
+<h5 class="text4">Enjoy the power to create and control people in a virtual <br> world where there are no rules. Play now on PC, Xbox One, <br> and PS4! </h5>
 <img src="images/gm8.png">
-<img src="images/gm9.png">
+<center > <button type="button" class="btn btn-outline-dark btn-news btn-lg">Play</button></center>
+</div>
+
+<img src="images/gm9.png" class="logo">
 
 </body>
 </html>
